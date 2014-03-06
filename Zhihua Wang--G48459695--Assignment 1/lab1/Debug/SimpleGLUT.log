@@ -1,0 +1,30 @@
+﻿生成启动时间为 2014/2/8 11:10:47。
+     1>项目“C:\Users\wzhmmq\Desktop\class\graphic II\Zhihua Wang--G48459695--Assignment 1\lab1\SimpleGLUT.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“.\Debug\SimpleGLUT.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\wzhmmq\desktop\class\graphic ii\zhihua wang--g48459695--assignment 1\lab1\source\model.cpp(137): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>c:\users\wzhmmq\desktop\class\graphic ii\zhihua wang--g48459695--assignment 1\lab1\source\model.cpp(141): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : 参见“fscanf”的声明
+     1>c:\users\wzhmmq\desktop\class\graphic ii\zhihua wang--g48459695--assignment 1\lab1\source\model.cpp(150): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : 参见“fscanf”的声明
+     1>c:\users\wzhmmq\desktop\class\graphic ii\zhihua wang--g48459695--assignment 1\lab1\source\model.cpp(156): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : 参见“fscanf”的声明
+     1>c:\users\wzhmmq\desktop\class\graphic ii\zhihua wang--g48459695--assignment 1\lab1\source\model.cpp(159): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : 参见“fscanf”的声明
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\SimpleGLUT.exe" /INCREMENTAL /NOLOGO /LIBPATH:Source\GL glut32.lib odbc32.lib odbccp32.lib opengl32.lib glu32.lib glaux.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Debug\SimpleGLUT.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\wzhmmq\Desktop\class\graphic II\Zhihua Wang--G48459695--Assignment 1\lab1\Debug\SimpleGLUT.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\SimpleGLUT.lib" /MACHINE:X86 .\Debug\main.obj
+         SimpleGLUT.vcxproj -> C:\Users\wzhmmq\Desktop\class\graphic II\Zhihua Wang--G48459695--Assignment 1\lab1\.\Debug\SimpleGLUT.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"C:\Users\wzhmmq\Desktop\class\graphic II\Zhihua Wang--G48459695--Assignment 1\lab1\.\Debug\SimpleGLUT.exe.manifest" /manifest .\Debug\SimpleGLUT.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“.\Debug\SimpleGLUT.unsuccessfulbuild”。
+         正在对“.\Debug\SimpleGLUT.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\wzhmmq\Desktop\class\graphic II\Zhihua Wang--G48459695--Assignment 1\lab1\SimpleGLUT.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.50

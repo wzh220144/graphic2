@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\Head">
+      <UniqueIdentifier>{c0bd4c49-cf84-4480-b5b4-93323a67748d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Head\math">
+      <UniqueIdentifier>{8e12b499-01e3-4e41-8aa7-d89385bf80ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Head\parameter">
+      <UniqueIdentifier>{6ca585d0-c725-4a69-b1d9-470dc738447d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Source">
+      <UniqueIdentifier>{3d0367c0-4876-47b0-9757-12a10cd7b951}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Source\math">
+      <UniqueIdentifier>{a726cb9a-ba66-40ef-a49b-b4e3f4ad214e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\camera.cpp">
+      <Filter>源文件\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\model.cpp">
+      <Filter>源文件\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\math\matrix.cpp">
+      <Filter>源文件\Source\math</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\math\operation.cpp">
+      <Filter>源文件\Source\math</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\math\projection.cpp">
+      <Filter>源文件\Source\math</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\math\vec3.cpp">
+      <Filter>源文件\Source\math</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\graphic.cpp">
+      <Filter>源文件\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Head\math\matrix.h">
+      <Filter>源文件\Head\math</Filter>
+    </ClInclude>
+    <ClInclude Include="Head\math\operation.h">
+      <Filter>源文件\Head\math</Filter>
+    </ClInclude>
+    <ClInclude Include="Head\math\projection.h">
+      <Filter>源文件\Head\math</Filter>
+    </ClInclude>
+    <ClInclude Include="Head\math\vec3.h">
+      <Filter>源文件\Head\math</Filter>
+    </ClInclude>
+    <ClInclude Include="Head\parameter\parameter.h">
+      <Filter>源文件\Head\parameter</Filter>
+    </ClInclude>
+    <ClInclude Include="Head\camera.h">
+      <Filter>源文件\Head</Filter>
+    </ClInclude>
+    <ClInclude Include="Head\head.h">
+      <Filter>源文件\Head</Filter>
+    </ClInclude>
+    <ClInclude Include="Head\headcpp.h">
+      <Filter>源文件\Head</Filter>
+    </ClInclude>
+    <ClInclude Include="Head\model.h">
+      <Filter>源文件\Head</Filter>
+    </ClInclude>
+    <ClInclude Include="Head\graphic.h">
+      <Filter>源文件\Head</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
