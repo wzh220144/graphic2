@@ -1,33 +1,33 @@
-﻿生成启动时间为 2014/3/5 23:47:57。
-     1>项目“C:\Users\wzhmmq\Desktop\class\graphic II\Zhihua Wang--G48459695--Assignment 3\graphic\graphic\graphic.vcxproj”在节点 2 上(build 个目标)。
+﻿生成启动时间为 2014/3/6 13:55:46。
+     1>项目“D:\class\graphic2\Zhihua Wang--G48459695--Assignment 3\graphic\graphic\graphic.vcxproj”在节点 2 上(build 个目标)。
      1>InitializeBuildStatus:
          正在创建“Debug\graphic.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
        ClCompile:
          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
          main.cpp
-     1>c:\users\wzhmmq\desktop\class\graphic ii\zhihua wang--g48459695--assignment 3\graphic\graphic\source\model.cpp(161): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>d:\class\graphic2\zhihua wang--g48459695--assignment 3\graphic\graphic\source\model.cpp(161): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
-     1>c:\users\wzhmmq\desktop\class\graphic ii\zhihua wang--g48459695--assignment 3\graphic\graphic\source\model.cpp(165): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>d:\class\graphic2\zhihua wang--g48459695--assignment 3\graphic\graphic\source\model.cpp(165): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : 参见“fscanf”的声明
-     1>c:\users\wzhmmq\desktop\class\graphic ii\zhihua wang--g48459695--assignment 3\graphic\graphic\source\model.cpp(175): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>d:\class\graphic2\zhihua wang--g48459695--assignment 3\graphic\graphic\source\model.cpp(175): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : 参见“fscanf”的声明
-     1>c:\users\wzhmmq\desktop\class\graphic ii\zhihua wang--g48459695--assignment 3\graphic\graphic\source\model.cpp(181): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>d:\class\graphic2\zhihua wang--g48459695--assignment 3\graphic\graphic\source\model.cpp(181): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : 参见“fscanf”的声明
-     1>c:\users\wzhmmq\desktop\class\graphic ii\zhihua wang--g48459695--assignment 3\graphic\graphic\source\model.cpp(184): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>d:\class\graphic2\zhihua wang--g48459695--assignment 3\graphic\graphic\source\model.cpp(184): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : 参见“fscanf”的声明
-     1>c:\users\wzhmmq\desktop\class\graphic ii\zhihua wang--g48459695--assignment 3\graphic\graphic\main.cpp(40): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>d:\class\graphic2\zhihua wang--g48459695--assignment 3\graphic\graphic\main.cpp(40): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
        Link:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\wzhmmq\Desktop\class\graphic II\Zhihua Wang--G48459695--Assignment 3\graphic\Debug\graphic.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\graphic.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\wzhmmq\Desktop\class\graphic II\Zhihua Wang--G48459695--Assignment 3\graphic\Debug\graphic.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\wzhmmq\Desktop\class\graphic II\Zhihua Wang--G48459695--Assignment 3\graphic\Debug\graphic.lib" /MACHINE:X86 Debug\main.obj
-         LINK : 没有找到 C:\Users\wzhmmq\Desktop\class\graphic II\Zhihua Wang--G48459695--Assignment 3\graphic\Debug\graphic.exe 或上一个增量链接没有生成它；正在执行完全链接
-         graphic.vcxproj -> C:\Users\wzhmmq\Desktop\class\graphic II\Zhihua Wang--G48459695--Assignment 3\graphic\Debug\graphic.exe
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\class\graphic2\Zhihua Wang--G48459695--Assignment 3\graphic\Debug\graphic.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\graphic.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\class\graphic2\Zhihua Wang--G48459695--Assignment 3\graphic\Debug\graphic.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\class\graphic2\Zhihua Wang--G48459695--Assignment 3\graphic\Debug\graphic.lib" /MACHINE:X86 Debug\main.obj
+         LINK : 没有找到 D:\class\graphic2\Zhihua Wang--G48459695--Assignment 3\graphic\Debug\graphic.exe 或上一个增量链接没有生成它；正在执行完全链接
+         graphic.vcxproj -> D:\class\graphic2\Zhihua Wang--G48459695--Assignment 3\graphic\Debug\graphic.exe
        Manifest:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\wzhmmq\Desktop\class\graphic II\Zhihua Wang--G48459695--Assignment 3\graphic\Debug\graphic.exe;#1" /manifest Debug\graphic.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\class\graphic2\Zhihua Wang--G48459695--Assignment 3\graphic\Debug\graphic.exe;#1" /manifest Debug\graphic.exe.intermediate.manifest
        FinalizeBuildStatus:
          正在删除文件“Debug\graphic.unsuccessfulbuild”。
          正在对“Debug\graphic.lastbuildstate”执行 Touch 任务。
-     1>已完成生成项目“C:\Users\wzhmmq\Desktop\class\graphic II\Zhihua Wang--G48459695--Assignment 3\graphic\graphic\graphic.vcxproj”(build 个目标)的操作。
+     1>已完成生成项目“D:\class\graphic2\Zhihua Wang--G48459695--Assignment 3\graphic\graphic\graphic.vcxproj”(build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:03.28
+已用时间 00:00:05.38

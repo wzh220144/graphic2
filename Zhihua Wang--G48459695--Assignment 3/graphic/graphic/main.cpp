@@ -80,9 +80,9 @@ void init( void ) {
 // update
 //================================
 void update( void ) {
-	for(int i=1; i<MODEL_NUM; i++) {
-		g_model[i].Rotate(0.1, vec3(0.0, 1.0, 0.0));
-	}
+	//for(int i=1; i<MODEL_NUM; i++) {
+		//g_model[i].Rotate(0.1, vec3(0.0, 1.0, 0.0));
+	//}
 	// do something before rendering...
 }
 
